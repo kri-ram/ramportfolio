@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram Krishna - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background: linear-gradient(to bottom, #f7f8fa, #eaeef3);
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: #333;
+            color: white;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #00b4d8;
+        }
+
+        .navbar .brand {
+            font-size: 24px;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 90vh;
+            background: url('https://source.unsplash.com/1600x900/?technology,coding') no-repeat center;
+            background-size: cover;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .hero h1 {
+            font-size: 4em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        /* Sections */
+        .section {
+            padding: 50px 10%;
+            text-align: center;
+        }
+
+        .about {
+            background: #fff;
+        }
+
+        .skills {
+            background: #f1f1f1;
+        }
+
+        .contact {
+            background: #333;
+            color: white;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.8em;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #222;
+            color: white;
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="brand">Ram Krishna</div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero fade-in">
+        <div>
+            <h1>Welcome to My Portfolio</h1>
+            <p>Crafting Solutions with Creativity and Technology</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="section about" id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Ram Krishna, a passionate developer aiming to deliver creative and efficient solutions. My expertise lies in Full Stack Development and creating interactive user experiences.
+        </p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section skills" id="skills">
+        <h2>Skills</h2>
+        <p>
+            - Proficient in Front-End Development: HTML, CSS, JavaScript, React.js<br>
+            - Back-End: Node.js, Express.js, MongoDB<br>
+            - Programming Languages: C, Java, Python<br>
+            - Tools: Git, GitHub, Docker, AWS Basics
+        </p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            <strong>Phone:</strong> 6200934193<br>
+            <strong>Email:</strong> ramkrishna7277815198@gmail.com<br>
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Ram Krishna. All rights reserved.
+    </footer>
+
+</body>
+</html>
